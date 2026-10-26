@@ -99,7 +99,10 @@ export class Lightbox {
     const photo = this.photos[this.index];
     const style = getComputedStyle(this.stage);
     const w = this.stage.clientWidth - parseFloat(style.paddingLeft) - parseFloat(style.paddingRight);
-    const h = this.stage.clientHeight - this.caption.offsetHeight;
+    const caption = getComputedStyle(this.caption);
+    const h =
+      this.stage.clientHeight - parseFloat(style.paddingTop) - parseFloat(style.paddingBottom) -
+      this.caption.offsetHeight - parseFloat(caption.marginTop) - parseFloat(caption.marginBottom);
     const ratio = aspect(photo);
     const width = Math.max(1, Math.min(w, h * ratio));
     this.img.style.width = `${Math.round(width)}px`;

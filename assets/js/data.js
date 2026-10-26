@@ -53,6 +53,13 @@ export function createImage(photo, { sizes, eager = false, className = "photo" }
   img.sizes = sizes;
   img.srcset = srcset(photo);
   img.src = url(photo, 800);
+  // Fade in once decoded (instant when reduced motion is on, see style.css).
+  const loaded = () => img.classList.add("is-loaded");
+  if (img.complete && img.naturalWidth) loaded();
+  else {
+    img.addEventListener("load", loaded, { once: true });
+    img.addEventListener("error", loaded, { once: true });
+  }
   return img;
 }
 

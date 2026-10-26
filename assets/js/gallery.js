@@ -117,27 +117,32 @@ function renderSeriesIndex(container, data) {
   intro.innerHTML = "<h1>Series</h1>";
 
   const list = document.createElement("ul");
-  list.className = "series-list";
+  list.className = "series-grid";
   for (const series of data.series) {
     const photos = data.photos.filter((p) => p.series === series.slug);
     const cover = photos.find((p) => p.file === series.cover) || photos[0];
 
     const item = document.createElement("li");
     const link = document.createElement("a");
+    link.className = "series-card";
     link.href = `series.html?s=${encodeURIComponent(series.slug)}`;
     if (cover) {
-      const img = createImage(cover, { sizes: "(min-width: 40em) 9rem, 5.5rem" });
-      img.className = "";
+      const img = createImage(cover, {
+        sizes: "(min-width: 64em) 30vw, (min-width: 40em) 45vw, calc(100vw - 2.5rem)",
+        className: "series-cover",
+      });
       img.alt = ""; // decorative here: the series title is the link text
       link.append(img);
     }
-    const text = document.createElement("div");
+    const label = document.createElement("span");
+    label.className = "series-label";
     const h2 = document.createElement("h2");
     h2.textContent = series.title;
-    const meta = document.createElement("p");
+    const meta = document.createElement("span");
+    meta.className = "series-count";
     meta.textContent = `${photos.length} photograph${photos.length === 1 ? "" : "s"}`;
-    text.append(h2, meta);
-    link.append(text);
+    label.append(h2, meta);
+    link.append(label);
     item.append(link);
     list.append(item);
   }
