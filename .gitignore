@@ -1,0 +1,6 @@
+# Full-resolution masters stay on your computer only — they are never published.
+originals/*
+!originals/.gitkeep
+
+__pycache__/
+.DS_Store
