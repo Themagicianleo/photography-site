@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>[Your Name] — Photography</title>
+  <meta name="description" content="[One sentence about what you photograph.]">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <script>try{var t=localStorage.getItem("theme");if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500&family=Inter:wght@400;500&display=swap">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script type="module" src="assets/js/site.js"></script>
+  <script type="module" src="assets/js/gallery.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <h1 class="brand"><a href="./">[Your Name]</a></h1>
+    <nav class="site-nav" aria-label="Main">
+      <ul>
+        <li><a href="./" aria-current="page">Work</a></li>
+        <li><a href="series.html">Series</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <button class="theme-toggle" type="button" aria-label="Switch theme">
+      <svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="6.5" fill="none" stroke="currentColor"/><path d="M8 1.5a6.5 6.5 0 0 1 0 13z" fill="currentColor"/></svg>
+    </button>
+  </header>
+
+  <main id="main" tabindex="-1">
+    <section class="intro" aria-label="Introduction">
+      <p class="lead">[One sentence about what you photograph, e.g. “Black-and-white photographs of the quiet, overlooked corners of Singapore.”]</p>
+    </section>
+
+    <h2 class="visually-hidden">Selected work</h2>
+    <div data-gallery="featured">
+      <noscript><p class="grid-status">The gallery needs JavaScript to show the photos.</p></noscript>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span data-year>2026</span> [Your Name]. All rights reserved.</p>
+  </footer>
+</body>
+</html>
