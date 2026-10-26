@@ -1,0 +1,222 @@
+{
+  "series": [
+    {
+      "slug": "overlooked-singapore",
+      "title": "Overlooked Singapore",
+      "description": "[One or two sentences about this series.]"
+    },
+    {
+      "slug": "wings",
+      "title": "Wings",
+      "description": "[One or two sentences about this series.]"
+    },
+    {
+      "slug": "texture",
+      "title": "Texture",
+      "description": "[One or two sentences about this series.]"
+    }
+  ],
+  "photos": [
+    {
+      "file": "placeholder-01.jpg",
+      "title": "[Photo title 01]",
+      "series": "overlooked-singapore",
+      "alt": "[Alt text for photo 01: describe what is in the picture in one sentence]",
+      "featured": true,
+      "camera": {
+        "focalLength": "",
+        "aperture": "",
+        "shutter": "",
+        "iso": ""
+      },
+      "width": 3000,
+      "height": 2000
+    },
+    {
+      "file": "placeholder-02.jpg",
+      "title": "[Photo title 02]",
+      "series": "overlooked-singapore",
+      "alt": "[Alt text for photo 02: describe what is in the picture in one sentence]",
+      "featured": true,
+      "camera": {
+        "focalLength": "",
+        "aperture": "",
+        "shutter": "",
+        "iso": ""
+      },
+      "width": 2000,
+      "height": 3000
+    },
+    {
+      "file": "placeholder-03.jpg",
+      "title": "[Photo title 03]",
+      "series": "overlooked-singapore",
+      "alt": "[Alt text for photo 03: describe what is in the picture in one sentence]",
+      "featured": false,
+      "camera": {
+        "focalLength": "",
+        "aperture": "",
+        "shutter": "",
+        "iso": ""
+      },
+      "width": 2400,
+      "height": 3000
+    },
+    {
+      "file": "placeholder-04.jpg",
+      "title": "[Photo title 04]",
+      "series": "overlooked-singapore",
+      "alt": "[Alt text for photo 04: describe what is in the picture in one sentence]",
+      "featured": true,
+      "camera": {
+        "focalLength": "",
+        "aperture": "",
+        "shutter": "",
+        "iso": ""
+      },
+      "width": 3000,
+      "height": 1688
+    },
+    {
+      "file": "placeholder-05.jpg",
+      "title": "[Photo title 05]",
+      "series": "overlooked-singapore",
+      "alt": "[Alt text for photo 05: describe what is in the picture in one sentence]",
+      "featured": false,
+      "camera": {
+        "focalLength": "",
+        "aperture": "",
+        "shutter": "",
+        "iso": ""
+      },
+      "width": 3000,
+      "height": 3000
+    },
+    {
+      "file": "placeholder-06.jpg",
+      "title": "[Photo title 06]",
+      "series": "wings",
+      "alt": "[Alt text for photo 06: describe what is in the picture in one sentence]",
+      "featured": true,
+      "camera": {
+        "focalLength": "",
+        "aperture": "",
+        "shutter": "",
+        "iso": ""
+      },
+      "width": 3000,
+      "height": 2000
+    },
+    {
+      "file": "placeholder-07.jpg",
+      "title": "[Photo title 07]",
+      "series": "wings",
+      "alt": "[Alt text for photo 07: describe what is in the picture in one sentence]",
+      "featured": true,
+      "camera": {
+        "focalLength": "",
+        "aperture": "",
+        "shutter": "",
+        "iso": ""
+      },
+      "width": 2000,
+      "height": 3000
+    },
+    {
+      "file": "placeholder-08.jpg",
+      "title": "[Photo title 08]",
+      "series": "wings",
+      "alt": "[Alt text for photo 08: describe what is in the picture in one sentence]",
+      "featured": false,
+      "camera": {
+        "focalLength": "",
+        "aperture": "",
+        "shutter": "",
+        "iso": ""
+      },
+      "width": 3000,
+      "height": 2000
+    },
+    {
+      "file": "placeholder-09.jpg",
+      "title": "[Photo title 09]",
+      "series": "wings",
+      "alt": "[Alt text for photo 09: describe what is in the picture in one sentence]",
+      "featured": false,
+      "camera": {
+        "focalLength": "",
+        "aperture": "",
+        "shutter": "",
+        "iso": ""
+      },
+      "width": 2400,
+      "height": 3000
+    },
+    {
+      "file": "placeholder-10.jpg",
+      "title": "[Photo title 10]",
+      "series": "texture",
+      "alt": "[Alt text for photo 10: describe what is in the picture in one sentence]",
+      "featured": true,
+      "camera": {
+        "focalLength": "",
+        "aperture": "",
+        "shutter": "",
+        "iso": ""
+      },
+      "width": 2000,
+      "height": 3000
+    },
+    {
+      "file": "placeholder-11.jpg",
+      "title": "[Photo title 11]",
+      "series": "texture",
+      "alt": "[Alt text for photo 11: describe what is in the picture in one sentence]",
+      "featured": true,
+      "camera": {
+        "focalLength": "",
+        "aperture": "",
+        "shutter": "",
+        "iso": ""
+      },
+      "width": 3000,
+      "height": 2000
+    },
+    {
+      "file": "placeholder-12.jpg",
+      "title": "[Photo title 12]",
+      "series": "texture",
+      "alt": "[Alt text for photo 12: describe what is in the picture in one sentence]",
+      "featured": false,
+      "camera": {
+        "focalLength": "",
+        "aperture": "",
+        "shutter": "",
+        "iso": ""
+      },
+      "width": 3000,
+      "height": 3000
+    },
+    {
+      "file": "placeholder-13.jpg",
+      "title": "[Photo title 13]",
+      "series": "texture",
+      "alt": "[Alt text for photo 13: describe what is in the picture in one sentence]",
+      "featured": true,
+      "camera": {
+        "focalLength": "",
+        "aperture": "",
+        "shutter": "",
+        "iso": ""
+      },
+      "width": 3000,
+      "height": 2400
+    }
+  ],
+  "portrait": {
+    "file": "portrait.jpg",
+    "alt": "[Alt text for your portrait, e.g. 'Black and white portrait of [Your Name] holding a camera']",
+    "width": 2400,
+    "height": 3000
+  }
+}
