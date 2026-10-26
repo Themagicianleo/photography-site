@@ -24,10 +24,10 @@
       "alt": "[Alt text for photo 01: describe what is in the picture in one sentence]",
       "featured": true,
       "camera": {
-        "focalLength": "",
-        "aperture": "",
-        "shutter": "",
-        "iso": ""
+        "focalLength": "35mm",
+        "aperture": "f/8",
+        "shutter": "1/250s",
+        "iso": "ISO 200"
       },
       "width": 3000,
       "height": 2000
@@ -39,10 +39,10 @@
       "alt": "[Alt text for photo 02: describe what is in the picture in one sentence]",
       "featured": true,
       "camera": {
-        "focalLength": "",
-        "aperture": "",
-        "shutter": "",
-        "iso": ""
+        "focalLength": "50mm",
+        "aperture": "f/5.6",
+        "shutter": "1/125s",
+        "iso": "ISO 400"
       },
       "width": 2000,
       "height": 3000
@@ -54,10 +54,10 @@
       "alt": "[Alt text for photo 03: describe what is in the picture in one sentence]",
       "featured": false,
       "camera": {
-        "focalLength": "",
-        "aperture": "",
-        "shutter": "",
-        "iso": ""
+        "focalLength": "28mm",
+        "aperture": "f/11",
+        "shutter": "1/60s",
+        "iso": "ISO 100"
       },
       "width": 2400,
       "height": 3000
@@ -69,10 +69,10 @@
       "alt": "[Alt text for photo 04: describe what is in the picture in one sentence]",
       "featured": true,
       "camera": {
-        "focalLength": "",
-        "aperture": "",
-        "shutter": "",
-        "iso": ""
+        "focalLength": "35mm",
+        "aperture": "f/4",
+        "shutter": "1/500s",
+        "iso": "ISO 200"
       },
       "width": 3000,
       "height": 1688
@@ -84,10 +84,10 @@
       "alt": "[Alt text for photo 05: describe what is in the picture in one sentence]",
       "featured": false,
       "camera": {
-        "focalLength": "",
-        "aperture": "",
-        "shutter": "",
-        "iso": ""
+        "focalLength": "50mm",
+        "aperture": "f/2.8",
+        "shutter": "1/1000s",
+        "iso": "ISO 800"
       },
       "width": 3000,
       "height": 3000
@@ -99,10 +99,10 @@
       "alt": "[Alt text for photo 06: describe what is in the picture in one sentence]",
       "featured": true,
       "camera": {
-        "focalLength": "",
-        "aperture": "",
-        "shutter": "",
-        "iso": ""
+        "focalLength": "400mm",
+        "aperture": "f/6.3",
+        "shutter": "1/2000s",
+        "iso": "ISO 1600"
       },
       "width": 3000,
       "height": 2000
@@ -114,10 +114,10 @@
       "alt": "[Alt text for photo 07: describe what is in the picture in one sentence]",
       "featured": true,
       "camera": {
-        "focalLength": "",
-        "aperture": "",
-        "shutter": "",
-        "iso": ""
+        "focalLength": "300mm",
+        "aperture": "f/5.6",
+        "shutter": "1/1600s",
+        "iso": "ISO 640"
       },
       "width": 2000,
       "height": 3000
@@ -129,10 +129,10 @@
       "alt": "[Alt text for photo 08: describe what is in the picture in one sentence]",
       "featured": false,
       "camera": {
-        "focalLength": "",
-        "aperture": "",
-        "shutter": "",
-        "iso": ""
+        "focalLength": "600mm",
+        "aperture": "f/6.3",
+        "shutter": "1/3200s",
+        "iso": "ISO 1250"
       },
       "width": 3000,
       "height": 2000
@@ -144,10 +144,10 @@
       "alt": "[Alt text for photo 09: describe what is in the picture in one sentence]",
       "featured": false,
       "camera": {
-        "focalLength": "",
-        "aperture": "",
-        "shutter": "",
-        "iso": ""
+        "focalLength": "400mm",
+        "aperture": "f/8",
+        "shutter": "1/1000s",
+        "iso": "ISO 500"
       },
       "width": 2400,
       "height": 3000
@@ -159,10 +159,10 @@
       "alt": "[Alt text for photo 10: describe what is in the picture in one sentence]",
       "featured": true,
       "camera": {
-        "focalLength": "",
-        "aperture": "",
-        "shutter": "",
-        "iso": ""
+        "focalLength": "90mm",
+        "aperture": "f/8",
+        "shutter": "1/30s",
+        "iso": "ISO 100"
       },
       "width": 2000,
       "height": 3000
@@ -174,10 +174,10 @@
       "alt": "[Alt text for photo 11: describe what is in the picture in one sentence]",
       "featured": true,
       "camera": {
-        "focalLength": "",
-        "aperture": "",
-        "shutter": "",
-        "iso": ""
+        "focalLength": "90mm",
+        "aperture": "f/11",
+        "shutter": "1/15s",
+        "iso": "ISO 100"
       },
       "width": 3000,
       "height": 2000
@@ -189,10 +189,10 @@
       "alt": "[Alt text for photo 12: describe what is in the picture in one sentence]",
       "featured": false,
       "camera": {
-        "focalLength": "",
-        "aperture": "",
-        "shutter": "",
-        "iso": ""
+        "focalLength": "60mm",
+        "aperture": "f/5.6",
+        "shutter": "1/8s",
+        "iso": "ISO 200"
       },
       "width": 3000,
       "height": 3000
@@ -204,10 +204,10 @@
       "alt": "[Alt text for photo 13: describe what is in the picture in one sentence]",
       "featured": true,
       "camera": {
-        "focalLength": "",
-        "aperture": "",
-        "shutter": "",
-        "iso": ""
+        "focalLength": "90mm",
+        "aperture": "f/16",
+        "shutter": "1/4s",
+        "iso": "ISO 64"
       },
       "width": 3000,
       "height": 2400
